@@ -3,7 +3,7 @@ terraform {
     resource_group_name  = "tamopstfstates"
     storage_account_name = "anoopsa1"
     container_name       = "tfstatedevops"
-    key                  = "terraformt.tfstate"
+    key                  = "MvzKiP6plI7bmaZVDjv7AFB8yNkmszkqSmrbjpOzjQLCCGqUBHd1MmwiUNaHyq/6e5L+obHmtzET+ASte2U2SQ=="
   }
 }
 
