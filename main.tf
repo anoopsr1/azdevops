@@ -27,7 +27,7 @@ resource "azurerm_virtual_network" "vnet" {
   name                = "tamopstfstates-vnet"
   address_space       = ["192.168.0.0/16"]
   location            = "eastus2"
-  resource_group_name = azurerm_resource_group.tamops.name
+  resource_group_name = azurerm_resource_group.tamopstfstates.name
 }
 
 # Create Subnet
